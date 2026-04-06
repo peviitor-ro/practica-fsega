@@ -21,11 +21,43 @@ git config user.name "Numele Tău"
 git config user.email "email@tau.ro"
 ```
 
-### 4. Lucrează la task-uri
+### 4. Vizualizează și rezolvă task-urile
+
+#### A. GitHub Issues
 În GitHub Issues vei găsi toate task-urile organizate pe săptămâni:
-- Fiecare issue are subtask-uri cu checkbox-uri
-- Bifează task-urile pe care le-ai finalizat
+- Fiecare issue are subtask-uri cu checkbox-uri `-[ ]`
+- Bifează task-urile pe care le-ai finalizat schimbând în `-[x]`
 - Start Date, End Date și Estimated time sunt setate pentru fiecare zi
+
+**Cum rezolvi un task:**
+1. Citește issue-ul complet
+2. Fă subtask-ul bifat: `-[x]`
+3. Scrie un commit cu modificările tale
+4. Când ai terminat toate subtask-urile, inchide issue-ul
+
+#### B. GitHub Projects (RoadMap + urmărire progres)
+Creează un Project pentru a-ți urmări progresul:
+
+1. Mergi la **Projects** → **New project**
+2. Alege **Board** (kanban)
+3. Setează coloanele:
+   - **To Do** - task-uri de făcut
+   - **In Progress** - task-uri în lucru
+   - **Done** - task-uri finalizate
+
+4. Adaugă carduri din Issues în fiecare coloană
+5. Aranjează în ordinea priorității
+
+#### C. Milestones (RoadMap)
+Fiecare săptămână este un Milestone:
+- **Săptămâna 1: Fundamente** - due: 2026-06-05
+- **Săptămâna 2: Web Scraping, SOLR, Docker** - due: 2026-06-11
+- **Săptămâna 3: Proiect și Prezentare** - due: 2026-06-17
+- **Săptămâna 4: Documentație** - due: 2026-06-20
+
+Vizualizează progresul în **Milestones** → selectează săptămâna.
+
+---
 
 ### 5. Creează un branch pentru munca ta
 ```bash
